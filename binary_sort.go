@@ -35,16 +35,12 @@ func main() {
 	to_find := 328
 
 	start := time.Now()
-	fmt.Println(start)
 	res := bin_sort(sample_arr, to_find)
 	end := time.Now()
-	fmt.Println(end)
 
 	dura := end.Sub(start)
-	fmt.Println((dura))
-
 	fmt.Println(dura.Milliseconds())
 	fmt.Println("Positon of ", to_find, " is ", res, " took ", dura.Microseconds())
 
-	//fmt.Println("Positon of ", to_find, " is ", lin_sort(sample_arr, to_find))
+
 }
