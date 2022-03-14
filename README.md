@@ -1,4 +1,4 @@
-# binary_search_py_cpp_gp
+# binary_search_py_cpp_go
 Python Binary Search Function
 
 Is binary search really faster than the usual linear search? 
