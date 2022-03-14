@@ -22,8 +22,8 @@ def binary_sort(entry_list, item):
     return -1
 
 def normal_find(arr, to_find):
-    for i in arr:
-        if i == to_find:
+    for i in range(len(arr)):
+        if arr[i] == to_find:
             return i
 
     return -1
