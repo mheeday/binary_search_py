@@ -2,7 +2,6 @@ from timeit import timeit
 import random
 
 def binary_sort(entry_list, item):
-    #entry_list = sorted(entry_list)
     if entry_list[0] == item:
         return 0
     elif entry_list[len(entry_list)-1] == item:
